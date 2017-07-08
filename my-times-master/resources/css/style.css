@@ -1,0 +1,90 @@
+.header{
+  display: flex;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  background-color: white;
+  z-index: 5;
+
+}
+.logo {
+  color: mediumaquamarine;
+  flex-grow: 1;
+  display: flex;
+  padding: 10px;
+  padding-left: 30px;
+}
+.logo h3 {
+  padding-left: 15px;
+}
+nav {
+  display: inline-block;
+  justify-content: space-around;
+  width: 300px;
+  align-content: flex-end;
+  padding: 20px;
+  position: static;
+  margin: 0px auto;
+}
+nav a{
+  padding: 10px;
+  color: black;
+}
+.main.container{
+  border: 1px solid black;
+  display: flex;
+  position: relative;
+  top: 80px;
+}
+.column.large{
+  display: flex;
+  width: 640px;
+  border: 2px solid black;
+  flex-direction: column;
+}
+.column.medium{
+  display: flex;
+  width: 300px;
+  border: 2px solid black;
+  flex-direction: column;
+}
+.column.small{
+  display: flex;
+  width: 240px;
+  border: 1px solid black;
+  flex-direction: column;
+}
+.mother{
+  border: 1px solid black;
+}
+.monument{
+  border: 1px solid black;
+}
+.orca{
+  border: 1px solid black;
+}
+.earth{
+  border: 1px solid black;
+}
+.burger{
+  border: 1px solid black;
+}
+.research{
+  border: 1px solid black;
+}
+.fbi{
+  border: 1px solid black;
+}
+.cats{
+  border: 1px solid black;
+}
+.brooklyn{
+  border: 1px solid black;
+}
+.bites{
+  border: 1px solid black;
+}
