@@ -9,6 +9,8 @@
   border-bottom: 1px solid black;
   background-color: white;
   z-index: 5;
+  top: 0;
+  left: 0;
 
 }
 .logo {
@@ -60,7 +62,11 @@ nav a{
 }
 .mother{
   border: 1px solid black;
+  background-image: url("../images/img-story-main.png");
+  display: flex;
+  height: 300px;
 }
+
 .monument{
   border: 1px solid black;
 }
@@ -69,22 +75,47 @@ nav a{
 }
 .earth{
   border: 1px solid black;
+  background-image: url("../images/img-story-2.png");
+  display: flex;
+  height: 280px;
 }
+
 .burger{
   border: 1px solid black;
 }
 .research{
   border: 1px solid black;
+  background-image: url("../images/img-research-3.png");
+  display: flex;
+  height: 280px;
 }
+
 .fbi{
   border: 1px solid black;
 }
 .cats{
   border: 1px solid black;
+  background-image: url("../images/img-cat-1.png");
+  display: flex;
+  height: 260px
 }
 .brooklyn{
   border: 1px solid black;
 }
 .bites{
   border: 1px solid black;
+}
+.cats p, .research p, .earth p, .mother p{
+  font-family: georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.mother p{
+  font-size: 40px;
+}
+body{
+  font-family: georgia;
+  font-size: 17px;
+  color: black;
 }
