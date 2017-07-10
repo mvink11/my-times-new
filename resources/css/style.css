@@ -60,9 +60,13 @@ nav a{
 }
 .top, .middle, .bottom{
   display: flex;
+  flex-direction: row;
+
 }
 .middle, .bottom{
   justify-content: space-between;
+  flex-direction: row;
+  display: inline-flex;
 }
 .mother{
   border: 1px solid black;
