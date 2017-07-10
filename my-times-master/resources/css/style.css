@@ -41,11 +41,13 @@ nav a{
   display: flex;
   position: relative;
   top: 80px;
+  justify-content: center;
 }
 .column{
   display: flex;
   border: 2px solid black;
   flex-direction: column;
+  margin-left: 40px;
 }
 .large{
   width: 640px;
@@ -55,6 +57,12 @@ nav a{
 }
 .column.small{
   width: 240px;
+}
+.top, .middle, .bottom{
+  display: flex;
+}
+.middle, .bottom{
+  justify-content: space-between;
 }
 .mother{
   border: 1px solid black;
@@ -66,8 +74,12 @@ nav a{
 .monument{
   border: 1px solid black;
 }
+.orca, .earth, .burger, .research {
+  width: 300px;
+}
 .orca{
   border: 1px solid black;
+
 }
 .earth{
   border: 1px solid black;
