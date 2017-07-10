@@ -157,7 +157,7 @@ h4{
   font-size: 12px;
   display: flex;
   position: relative;
-  height: 350px;
+  height: 300px;
   align-items: center;
 }
 .title{
@@ -168,7 +168,6 @@ h4{
   align-items: center;
   display: inline-flex;
   width: 150px;
-  justify-content: center;
 }
 .contact{
   display: inline-flex;
