@@ -42,23 +42,19 @@ nav a{
   position: relative;
   top: 80px;
 }
-.column.large{
+.column{
   display: flex;
-  width: 640px;
   border: 2px solid black;
   flex-direction: column;
+}
+.large{
+  width: 640px;
 }
 .column.medium{
-  display: flex;
   width: 300px;
-  border: 2px solid black;
-  flex-direction: column;
 }
 .column.small{
-  display: flex;
   width: 240px;
-  border: 1px solid black;
-  flex-direction: column;
 }
 .mother{
   border: 1px solid black;
