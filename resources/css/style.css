@@ -131,3 +131,48 @@ body{
   font-size: 17px;
   color: black;
 }
+h4{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+
+}
+.bites p{
+  background-color: whitesmoke;
+  font-family: verdana;
+  font-size: 12px;
+  color: dimgray;
+  border-bottom: 1px solid black;
+  height: 40px;
+  align-content: center;
+  padding-left: 10px;
+  padding-top: 18px;
+  display: flex;
+  margin: 0;
+}
+.footer{
+  background-color: mediumaquamarine;
+  margin: auto;
+  font-family: verdana;
+  font-size: 12px;
+  display: flex;
+  position: relative;
+  height: 350px;
+  align-items: center;
+}
+.title{
+  font-family: georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  display: inline-flex;
+  width: 150px;
+  justify-content: center;
+}
+.contact{
+  display: inline-flex;
+}
+.contact, .title{
+  border: 1px solid black;
+}
