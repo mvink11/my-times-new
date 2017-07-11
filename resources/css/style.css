@@ -84,7 +84,6 @@ nav a{
 }
 
 .earth{
-  border: 1px solid black;
   background-image: url("../images/img-story-2.png");
   display: flex;
   height: 280px;
