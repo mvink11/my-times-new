@@ -37,15 +37,14 @@ nav a{
   color: black;
 }
 .main.container{
-  border: 1px solid black;
   display: flex;
   position: relative;
   top: 80px;
   justify-content: center;
+  height: auto;
 }
 .column{
   display: flex;
-  border: 2px solid black;
   flex-direction: column;
   margin-left: 40px;
 }
@@ -58,33 +57,32 @@ nav a{
 .column.small{
   width: 240px;
 }
-.top, .middle, .bottom{
+.upper{
   display: flex;
-  flex-direction: row;
-
+  flex-direction: column;
+}
+.lower{
+  justify-content: space-between;
+  margin-bottom: 200px;
 }
 .middle, .bottom{
   justify-content: space-between;
-  flex-direction: row;
+  flex-direction: column;
   display: inline-flex;
 }
+.middle{
+  margin-right: 31px;
+}
 .mother{
-  border: 1px solid black;
   background-image: url("../images/img-story-main.png");
   display: flex;
   height: 300px;
 }
 
-.monument{
-  border: 1px solid black;
-}
 .orca, .earth, .burger, .research {
   width: 300px;
 }
-.orca{
-  border: 1px solid black;
 
-}
 .earth{
   border: 1px solid black;
   background-image: url("../images/img-story-2.png");
@@ -92,30 +90,17 @@ nav a{
   height: 280px;
 }
 
-.burger{
-  border: 1px solid black;
-}
 .research{
-  border: 1px solid black;
   background-image: url("../images/img-research-3.png");
   display: flex;
   height: 280px;
 }
 
-.fbi{
-  border: 1px solid black;
-}
 .cats{
   border: 1px solid black;
   background-image: url("../images/img-cat-1.png");
   display: flex;
   height: 260px
-}
-.brooklyn{
-  border: 1px solid black;
-}
-.bites{
-  border: 1px solid black;
 }
 .cats p, .research p, .earth p, .mother p{
   font-family: georgia;
@@ -159,6 +144,8 @@ h4{
   position: relative;
   height: 300px;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .title{
   font-family: georgia;
@@ -166,12 +153,22 @@ h4{
   font-weight: bold;
   color: white;
   align-items: center;
-  display: inline-flex;
+  display: inline-block;
   width: 150px;
+  border-right: 2px solid white;
+}
+.nav2{
+  display: inline-block;
 }
 .contact{
-  display: inline-flex;
+  margin: auto;
+  display: block;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding: 0px;
 }
-.contact, .title{
-  border: 1px solid black;
+.copyright{
+  display: block;
 }
